@@ -55,8 +55,8 @@ public class Auth0PKCEFlow {
 
     }
 
-    private static final String DOMAIN = "your-domain.eu.auth0.com";
-    private static final String CLIENT_ID = "your_client_id";
+    private static final String DOMAIN = "sdp-14.eu.auth0.com";
+    private static final String CLIENT_ID = "PR11y9bTPK9XcpXKYV5ATDmgeEABSupt";
     private static final String REDIRECT_URI = "https://" + DOMAIN + "/mobile";
 
     public static String createCodeVerifier() {
